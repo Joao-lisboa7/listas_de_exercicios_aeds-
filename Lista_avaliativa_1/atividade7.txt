@@ -1,0 +1,43 @@
+7. Considere os algoritmos abaixo e responda:
+
+ALGORITIMO 1:
+
+int count = 0;
+int i;
+for (i=0; i<n; i++)
+if (i%2 == 1)
+count++;
+
+a) Algoritmo 1: Calcule o valor final da variável count considerando n = 7
+   Resposta: 3
+
+1. Calcule o número de operações de:
+a. Declaração de Variáveis = 2
+b. Atribuições = 2
+
+2. Calcule o número de operações em função de n para cada um dos algoritmos:
+a. Comparação "menor que" = n + 1
+b. Comparação "igual a" = 0
+c. Incremento no melhor caso = n/2
+d. Incremento no pior caso = n/2
+
+---------------------------------------------------------------------------------------
+
+AlGORITOMO 2:
+
+for (int i=1;i<=n;i*=2)
+if (i%2 == 0)
+printf(“Olá”);
+
+b) Algoritmo 2: Calcule o número de vezes que o texto “Olá” será impresso considerando n = 15.
+   Resposta: 3
+
+1. Calcule o número de operações de:
+a. Declaração de Variáveis = 1
+b. Atribuições = 2
+
+2. Calcule o número de operações em função de n para cada um dos algoritmos:
+a. Comparação "menor que"
+b. Comparação "igual a"
+c. Incremento no melhor caso = 0
+d. Incremento no pior caso
